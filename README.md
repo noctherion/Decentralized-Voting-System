@@ -15,4 +15,4 @@ __Explanation:__
  - The ```vote``` function allows registered voters to cast their votes for a specific candidate.
  - The ```getWinner``` function determines the candidate with the highest votes after voting is stopped.
 
-__Note:__ Please note that this is a basic implementation of a decentralized voting system, and more sophisticated security features and mechanisms should be added in a real-world application to ensure fairness and integrity. Also, consider gas costs when deploying such a contract on the Ethereum blockchain, as each voter registration and candidate nomination will consume gas.
+__Note:__ This is a basic implementation of a decentralized voting system, and more sophisticated security features and mechanisms should be added in a real-world application to ensure fairness and integrity. Also, consider gas costs when deploying such a contract on the Ethereum blockchain, as each voter registration and candidate nomination will consume gas.
