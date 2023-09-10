@@ -77,7 +77,7 @@ contract VotingSystem {
         require(!votingActive, "Voting is still active");
 
         uint256 maxVotes = 0;
-        uint256 winningCandidateId = 0;
+        uint256 winningCandidateId = 0
 
         for (uint256 i = 1; i <= numCandidates; i++) {
             if (candidates[i].voteCount > maxVotes) {
